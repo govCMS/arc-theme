@@ -3,6 +3,16 @@
   "version": "1.0.0",
   "description": "A GOVCMS Drupal theme for the Australian Research Council website",
   "main": "gulpfile.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "gulp",
+    "prod": "npm run production",
+    "production": "gulp",
+    "watch": "gulp watch",
+    "browser-sync": "browser-sync",
+    "test": "gulp test",
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
+  },
   "repository": "https://github.com/govCMS/arc-theme",
   "author": "Department of Finance",
   "license": "ISC",
