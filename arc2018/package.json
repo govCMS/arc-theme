@@ -1,0 +1,24 @@
+{
+  "name": "arc2018",
+  "version": "1.0.0",
+  "description": "A GOVCMS Drupal theme for the Australian Research Council website",
+  "main": "gulpfile.js",
+  "repository": "https://github.com/govCMS/arc-theme",
+  "author": "Department of Finance",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.5.0",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-modernizr": "^2.0.3",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5",
+    "postcss-import": "^11.1.0"
+  }
+}
