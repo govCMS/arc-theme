@@ -1,0 +1,61 @@
+.upperLinks li,
+.lowerLinks li {
+	display: block;
+	float: left;
+	margin: 0 2% 20px 0;
+	background: #c3a8c5;
+	color: #000;
+	text-align: center;
+	height: auto;
+	width: 19%;
+    padding: 10px;
+    cursor: pointer;
+    -webkit-transition: opacity .15s ease-in-out;
+	-moz-transition: opacity .15s ease-in-out;
+	-ms-transition: opacity .15s ease-in-out;
+	-o-transition: opacity .15s ease-in-out;
+	transition: opacity .15s ease-in-out;
+}
+
+.upperLinks li a,
+.lowerLinks li a {
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+}
+
+/*.upperLinks li.leaf span,
+.lowerLinks li.leaf span {
+	text-decoration: none;
+}*/
+
+.upperLinks ul,
+.lowerLinks ul {
+	clear:both;
+	overflow: hidden;
+}
+
+.upperLinks li.disable,
+.lowerLinks li.disable  {
+	opacity: .5;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+}
+
+.upperLinks li.disable,
+.lowerLinks li.disable  {
+	opacity: .5;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+}
+
+.upperLinks li:hover,
+.lowerLinks li:hover{
+	background: #f4f4f4;
+	color:#000;
+}
+
+.upperLinks li a.linkHover,
+.lowerLinks li a.linkHover {
+	color: #000;
+}

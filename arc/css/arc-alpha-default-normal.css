@@ -1,0 +1,293 @@
+/**
+ * @file
+ * Normal styles
+ *
+ * Adds all normal grid styles
+ *
+ */
+
+
+/* Home Page Featured Articles */
+#region-feature-articles {
+    background: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 940px;
+}
+.flexslider{
+	margin:0;
+}
+#zone-footer-copyright .block-menu-footer-sub-menu{
+		float:right;
+}
+
+/* Search Form */
+#region-header-search form {
+    float: right;
+}
+
+/* Content */
+#region-content #block-system-main {
+    padding-left: 0;
+}
+
+/* Home Page Latest News & From The Blog */
+#block-views-latest-news-block {
+    float: left;
+    width: 300px;
+    margin-right: 10px;
+}
+
+#block-views-home-page-blog-articles-block {
+    float: right;
+    width: 300px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+/* Page/Article Node */
+body.page-node- #region-content {
+    padding-top: 0;
+}
+.flexslider {
+	margin: 0px 0 0 0px;
+}
+
+body.page-node- #region-content .node .field-name-field-image,
+body.page-comment #region-content .node .field-name-field-image {
+    margin-bottom: 20px;
+    width: auto;
+}
+
+/* Comments */
+#comments {
+    margin-bottom: 42px;
+}
+
+#comments #comment-wrapper-header h2 {
+    float: left;
+}
+
+#comments #comment-wrapper-header .add-new-link {
+    float: right;
+}
+
+/* Tabs */
+.tabbed-nav {
+    height: 39px;
+}
+
+.tabbed-nav ul.tabs {
+    height: 39px;
+}
+
+.tabbed-nav ul.tabs li {
+    width: auto !important;
+    height: 39px;
+}
+
+.tabbed-nav ul.tabs li a {
+    height: 39px !important;
+    line-height: 38px;
+    padding: 0 20px;
+}
+
+/* User Login */
+body.page-user #region-content #block-system-main {
+    margin-bottom: 0;
+}
+
+body.page-user #region-content #block-system-main .block-inner form .form-item label {
+    width: 180px;
+    float: left !important;
+}
+
+body.page-user #region-content #block-system-main .block-inner form .form-item .description {
+    margin-left: 180px;
+}
+
+body.page-user #region-content #block-system-main .block-inner form#user-pass .form-item label {
+    width: 220px;
+}
+
+body.page-user #region-content #block-system-main .block-inner form .form-item input.form-text {
+    width: 298px;
+}
+
+/* Sidebar */
+#block-agov-twitter-feed #tweets ul li .tweet_text {
+    width: 217px;
+}
+
+/* Footer Feature/Teasers */
+#region-footer-feature .views-row {
+    width: 300px;
+}
+
+#region-footer-feature .views-row-first {
+    margin-left: 0;
+}
+
+#region-footer-feature .views-row:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+#region-footer-feature .block .content h2,
+#region-footer-feature .views-row .field-name-field-description {
+    width: 210px;
+}
+
+/* Footer Menu */
+#region-footer-menu {
+    width: 960px;
+	background: #ECE6F4;
+	padding: 20px;
+	overflow: hidden;
+	margin: 0 0 20px 0;
+}
+
+#region-footer-menu .block-menu-block {
+   width: 195px;
+	float: left;
+	margin: 0 35px 0 0;
+}
+
+#region-footer-menu .block-menu-block.era_menu{
+	 margin-right: 0px;
+}
+
+#region-footer-menu ul ul {
+    margin-bottom: 0;
+}
+
+/* Footer Bottom */
+#zone-footer-copyright {
+    padding: 0;
+}
+
+#zone-footer-copyright div.region#region-footer-sub-menu {
+	float: left;
+	margin-left: 25px;
+	width: 150px;
+	margin-right: 0;
+}
+
+#zone-footer-copyright div.region#region-footer-copyright {
+    margin: 0;
+    float: right;
+    padding-right: 10px;
+    width: 600px;
+}
+
+/* Footer Sub Menu */
+#region-footer-sub-menu ul {
+    text-align: left;
+}
+
+/* Copywright */
+#block-agov-twitter-feed #tweets ul li .tweet_time {
+    margin-left: 53px;
+}
+
+#region-header-search form input.form-submit {
+    height: 27px;
+}
+
+#region-content .entity-bean.highlight {
+    padding-bottom: 0;
+}
+
+#region-content .entity-bean.default .image {
+    margin-right: 14px;
+}
+
+#region-content .entity-bean.highlight .image {
+    width: 320px;
+    float: left;
+    margin-bottom: 0;
+}
+
+#region-content .entity-bean.highlight .image img {
+    width: 320px;
+}
+
+.gov-front-layout .grid-4 {
+    width: 300px;
+    float: left;
+}
+
+#region-header-main-menu {
+    width: 940px;
+}
+
+body.page-search #section-content #search-form #edit-basic label {
+    float: left;
+    margin-right: 40px;
+}
+
+body.page-search #section-content #search-form #edit-basic input.form-text {
+    width: 280px;
+    float: left;
+}
+
+body.page-search #section-content #search-form #edit-basic {
+    height: 30px;
+}
+
+#region-header-main-menu .block-superfish {
+    margin-top: 0;
+}
+
+#region-header-search form input.form-submit {
+  background: url(../images/bg-top_form_submit.png) top left no-repeat !important;
+  height: 27px;
+  line-height: 27px;
+  text-align: center;
+  font: 12px Cabin, Arial, Helvetica, sans-serif;
+  border: none;
+  width: 76px;
+  text-transform: uppercase;
+  cursor: pointer;
+  bottom: 0;
+  right: 0;
+  color: #000;
+}
+
+#region-footer-copyright .block-simplenews {
+  text-align: left;
+  float:left;
+  width:60%;
+}
+#region-footer-copyright .block-1{
+  float:right;
+}
+.connect_us .connect_facebook,.connect_us .connect_twitter{
+	float:left;
+}
+#region-header-main-menu ul.menu li a {
+  padding: 10px 22px;
+  font: 13px "Cabin", Arial, sans-serif;
+    text-decoration: none;
+}
+.page-grants .panel-2col .panel-col-first {
+	width: 190px;
+}
+.grant-menu-page .panel-2col .panel-col-first {
+	float: left;
+	width: 190px;
+	margin-right: 10px;
+}
+.grant-menu-page .panel-2col .panel-col-last {
+	float: left;
+	width: 390px;
+}
+.grant-menu-page .panel-2col .panel-col-first h2.pane-title {
+	margin-top: 0;
+}
+.grant-menu-page .panel-2col .panel-col-first .inside .panel-pane {
+	float: left;
+	width: 100%;
+}
+.grant-menu-page .panel-2col .panel-col-first .pane-menu-menu-grants-menu {
+	margin-right: 0%;
+}

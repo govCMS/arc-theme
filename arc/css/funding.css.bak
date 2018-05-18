@@ -1,0 +1,136 @@
+#panels-ipe-paneid-57 > div.panels-ipe-portlet-content > div > div > div > ul > li {
+	display: block;
+	float: left;
+	margin: 0 2% 20px 0;
+	background: #5E2D61;
+	color: #FFF;
+	text-align: center;
+	height: auto;
+	width: 19%;
+    padding: 10px;
+    cursor: pointer;
+    -webkit-transition: opacity .15s ease-in-out;
+	-moz-transition: opacity .15s ease-in-out;
+	-ms-transition: opacity .15s ease-in-out;
+	-o-transition: opacity .15s ease-in-out;
+	transition: opacity .15s ease-in-out;
+}
+#panels-ipe-paneid-57 > div.panels-ipe-portlet-content > div > div > div > ul > li.disable {
+	opacity: .5;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+}
+#panels-ipe-paneid-57 > div.panels-ipe-portlet-content > div > div > div > ul > li:hover,
+#panels-ipe-paneid-59 > div.panels-ipe-portlet-content > div > div > div > ul > li:hover{
+	background: #f4f4f4;
+	color:#000;
+}
+#panels-ipe-paneid-57 > div.panels-ipe-portlet-content > div > div > div > ul > li > a {
+	text-align: center;
+	text-decoration: none;
+	color: #FFF;
+}
+
+#panels-ipe-paneid-57 > div.panels-ipe-portlet-content > div > div > div > ul > li.leaf.menu-mlid-1582 > span {
+	text-decoration: none;
+}
+#panels-ipe-paneid-59 > div.panels-ipe-portlet-content > div > div > div > ul {
+	clear:both;
+	overflow: hidden;
+}
+#panels-ipe-paneid-59 > div.panels-ipe-portlet-content > div > div > div > ul > li {
+	background: #5E2D61;
+	display: block;
+	float: left;
+	width: 19%;
+	margin: 0 2% 0 0;
+	text-align: center;
+	height:auto;
+	padding:10px;
+	color: #FFF;
+	cursor: pointer;
+}
+#panels-ipe-paneid-59 > div.panels-ipe-portlet-content > div > div > div > ul > li > a {
+	text-decoration: none;
+	text-align: center;
+	color: #FFF;
+}
+#panels-ipe-paneid-57 > div.panels-ipe-portlet-content > div > div > div > ul > li > a.linkHover {
+	color: #000;
+}
+#panels-ipe-paneid-59 > div.panels-ipe-portlet-content > div > div > div > ul > li > a.linkHover {
+	color: #000;
+}
+/* Updated 11/3/2015 */
+div.menu-name-menu-ncgp-funding-page > ul > li,
+div.menu-name-menu-ncgp-funding-page-2nd-level > ul > li {
+	display: block;
+	float: left;
+	margin: 0 2% 20px 0;
+	background: #5E2D61;
+	color: #FFF;
+	text-align: center;
+	height: auto;
+	width: 19%;
+    padding: 10px;
+    cursor: pointer;
+    -webkit-transition: opacity .15s ease-in-out;
+	-moz-transition: opacity .15s ease-in-out;
+	-ms-transition: opacity .15s ease-in-out;
+	-o-transition: opacity .15s ease-in-out;
+	transition: opacity .15s ease-in-out;
+}
+div.menu-name-menu-ncgp-funding-page > ul > li.disable,
+div.menu-name-menu-ncgp-funding-page-2nd-level > ul > li.disable  {
+	opacity: .5;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+}
+div.menu-name-menu-ncgp-funding-page > ul > li:hover,
+div.menu-name-menu-ncgp-funding-page-2nd-level > ul > li:hover{
+	background: #f4f4f4;
+	color:#000;
+}
+div.menu-name-menu-ncgp-funding-page > ul > li > a,
+div.menu-name-menu-ncgp-funding-page-2nd-level > ul > li > a {
+	text-align: center;
+	text-decoration: none;
+	color: #FFF;
+}
+
+div.menu-name-menu-ncgp-funding-page > ul > li.leaf.menu-mlid-1582 > span,
+div.menu-name-menu-ncgp-funding-page-2nd-level > ul > li.leaf.menu-mlid-1582 > span {
+	text-decoration: none;
+}
+div.menu-name-menu-ncgp-funding-page > ul,
+div.menu-name-menu-ncgp-funding-page-2nd-level > ul {
+	clear:both;
+	overflow: hidden;
+}
+div.menu-name-menu-ncgp-funding-page > ul > li,
+div.menu-name-menu-ncgp-funding-page-2nd-level > ul > li {
+	background: #5E2D61;
+	display: block;
+	float: left;
+	width: 19%;
+	margin: 0 2% 0 0;
+	text-align: center;
+	height:auto;
+	padding:10px;
+	color: #FFF;
+	cursor: pointer;
+}
+div.menu-name-menu-ncgp-funding-page > ul > li > a,
+div.menu-name-menu-ncgp-funding-page-2nd-level > ul > li > a {
+	text-decoration: none;
+	text-align: center;
+	color: #FFF;
+}
+div.menu-name-menu-ncgp-funding-page > ul > li > a.linkHover,
+div.menu-name-menu-ncgp-funding-page-2nd-level > ul > li > a.linkHover {
+	color: #000;
+}
+div.menu-name-menu-ncgp-funding-page > ul > li > a.linkHover,
+div.menu-name-menu-ncgp-funding-page-2nd-level > ul > li > a.linkHover {
+	color: #000;
+}

@@ -1,0 +1,78 @@
+/*script by Ekhwan@osky*/
+(function($) {
+	Drupal.behaviors.augovCommon = {
+		attach:function (context, settings) {
+			var toggle = true;
+			$(window).resize(function () {
+
+		        $(document).ready(function () {
+		        	// Set max height for Top Links
+		            $('div.menu-name-menu-ncgp-funding-page > ul > li').height("");
+		            var heightArray = $('div.menu-name-menu-ncgp-funding-page > ul > li').map(function () {
+		                return $(this).height();
+		            }).get();
+		            var maxHeight = Math.max.apply(Math, heightArray);
+		            $('div.menu-name-menu-ncgp-funding-page > ul > li').height(maxHeight);
+
+		            // Set width for Top Links
+		      
+		      		/*//set max height for lowerlink
+		            var heightArray2 = $('div.menu-name-menu-ncgp-funding-page-2nd-level > ul > li').map(function () {
+		                return $(this).height();
+		            }).get();
+		            var maxHeight2 = Math.max.apply(Math, heightArray2);
+		            $('div.menu-name-menu-ncgp-funding-page-2nd-level > ul > li').height(maxHeight2);*/
+		            
+		        });
+
+	   		}).trigger('resize');
+
+			$("div.menu-name-menu-ncgp-funding-page > ul > li:not(.leaf.menu-mlid-1582)").click(function(){
+			    var url = $(this).find('a:first').attr('href');
+			    window.location = url;
+			});
+
+			$("div.menu-name-menu-ncgp-funding-page-2nd-level > ul > li:not(.leaf.menu-mlid-1582)").click(function(){
+			    var url = $(this).find('a:first').attr('href');
+			    window.location = url;
+			});
+
+    		$('div.menu-name-menu-ncgp-funding-page-2nd-level > ul').css("display", "none");
+
+
+    		$("div.menu-name-menu-ncgp-funding-page > ul > li.leaf.menu-mlid-1582").click(function() {
+    			if(toggle){
+    				$('div.menu-name-menu-ncgp-funding-page-2nd-level > ul').fadeIn( "slow", function() {
+					    // Animation complete
+					  });
+    				$('div.menu-name-menu-ncgp-funding-page > ul > li:not(.leaf.menu-mlid-1582)').toggleClass("disable");
+    				toggle = false;
+    			}
+			  	else{
+			  		$('div.menu-name-menu-ncgp-funding-page-2nd-level > ul').fadeOut( "slow", function() {
+			  			// Animation complete
+					  });
+			  		$('div.menu-name-menu-ncgp-funding-page > ul > li:not(.leaf.menu-mlid-1582)').toggleClass("disable");
+			  		toggle = true;
+			  	}
+			});
+
+			$( "div.menu-name-menu-ncgp-funding-page > ul > li" ).hover(
+				function() {
+					$(this).find('a:first').addClass( "linkHover" )
+			  	}, function() {
+   					$(this).find('a:first').removeClass( "linkHover" )
+  				}
+			);
+
+			$( "div.menu-name-menu-ncgp-funding-page-2nd-level > ul > li" ).hover(
+				function() {
+					$(this).find('a:first').addClass( "linkHover" )
+			  	}, function() {
+   					$(this).find('a:first').removeClass( "linkHover" )
+  				}
+			);
+    	}
+	};
+	
+})(jQuery);
