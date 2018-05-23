@@ -36,3 +36,8 @@ drupal_static_reset('element_info');
  * Include hook_preprocess_*() hooks.
  */
 include_once './' . drupal_get_path('theme', 'arc2018') . '/includes/preprocess.inc';
+
+/**
+ * Include hook_*_alter() hooks.
+ */
+include_once './' . drupal_get_path('theme', 'arc2018') . '/includes/alter.inc';
