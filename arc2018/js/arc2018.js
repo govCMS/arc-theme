@@ -1,1 +1,1 @@
-!function(t,a){"use strict";Drupal.behaviors.arc2018={attach:function(t,a){}}}(jQuery);
+!function(s,e){"use strict";e.behaviors.responsiveSlides={attach:function(e,t){s(".view-slideshow ul:not(.contextual-links)").responsiveSlides({auto:!1,pager:!0,pauseButton:!1})}},e.behaviors.arc2018={attach:function(e,t){}}}(jQuery,Drupal);

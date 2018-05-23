@@ -1,0 +1,72 @@
+#logo {
+  width: 266px;
+
+  img {
+    height: 59px;
+  }
+}
+
+#block-govcms-text-resize-text-resize {
+  float: right;
+  margin: 0;
+  height: 27px;
+
+  li {
+    float: left;
+    list-style: none;
+    margin-right: 2px;
+    background-image: none;
+    padding: 0;
+    margin-left: 0;
+
+    a {
+      display: block;
+      width: 27px;
+      height: 0;
+      overflow: hidden;
+      padding-top: 27px;
+
+      &.font-small {
+        background: url("../img/icon-smaller.png") no-repeat center bottom;
+      }
+
+      &.font-large {
+        background: url("../img/icon-larger.png") no-repeat center bottom;
+      }
+    }
+  }
+}
+
+#block-views-slideshow-block {
+  .block-title {
+    display: none;
+    visibility: hidden;
+  }
+
+  .rslides {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+
+    img {
+      width: 100%;
+      height: auto;
+      vertical-align: bottom;
+    }
+
+    .node-slide {
+      .group-left {
+        float: left;
+        width: 620px;
+        height: 320px;
+      }
+
+      .group-right {
+        float: right;
+        width: 300px;
+        padding-left: 0;
+      }
+    }
+  }
+}
