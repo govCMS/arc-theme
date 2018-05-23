@@ -28,3 +28,19 @@ function arc2018_preprocess_region(&$variables) {
   // Set logo variable.
   $variables['logo'] = l($logo_img, '<front>', ['html' => TRUE]);
 }
+
+/**
+ * Implements hook_preprocess_node().
+ */
+function arc2018_preprocess_node(&$variables) {
+
+  // Slides get a special read more link.
+  if ($variables['type'] == 'slide') {
+    if (!empty($variables['field_read_more'][0]['url'])) {
+      $variables['title_link'] = l($variables['title'], $variables['field_read_more'][0]['url']);
+    }
+    else {
+      $variables['title_link'] = check_plain($variables['title']);
+    }
+  }
+}
