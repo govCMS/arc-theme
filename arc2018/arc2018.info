@@ -1,0 +1,61 @@
+name        = ARC2018
+description = A GovCMS7 Drupal theme for the Australian Research Council website.
+core        = 7.x
+
+base theme = 'arc'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[user_top] = 'User Top'
+regions[header_top_menu] = 'Top Menu'
+regions[header_logo] = 'Header Logo'
+regions[header_search] = 'Search'
+regions[header_main_menu] = 'Main Menu'
+regions[content] = 'Content'
+regions[content_news] = 'Content News'
+regions[content_middle_first] = 'Content Middle First'
+regions[content_middle_second] = 'Content Middle Second'
+regions[content_bottom_first] = 'Content Bottom First'
+regions[content_bottom_second] = 'Content Bottom Second'
+regions[feature_articles] = 'Feature Articles'
+regions[home_page_intro_copy] = 'Intro Copy'
+regions[sidebar] = 'Sidebar'
+regions[footer_feature] = 'Footer Feature'
+regions[footer_menu] = 'Footer Menu'
+regions[footer_sub_menu] = 'Footer Sub Menu'
+regions[footer_copyright] = 'Footer Copyright'
+regions[page_top] = 'Page Top'
+regions[page_bottom] = 'Page Bottom'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Zones
+;;;;;;;;;;;;;;;;;;;;;
+
+zones[user_top] = 'User Top'
+zones[header] = 'Header'
+zones[menu] = 'Menu'
+zones[featured_articles] = 'Featured Articles'
+zones[content] = 'Content'
+zones[content_middle] = 'Content Middle'
+zones[content_bottom] = 'Content Bottom'
+zones[footer] = 'Footer'
+zones[footer_menu] = 'Footer Menu'
+zones[footer_copyright] = 'Footer Copyright'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Settings
+;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Javascript.
+;;;;;;;;;;;;;;;;;;;;;
+
+scripts[] = js/arc2018.js
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheet.
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/arc2018.css

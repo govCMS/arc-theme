@@ -1,0 +1,1 @@
+!function(t,a){"use strict";Drupal.behaviors.arc2018={attach:function(t,a){}}}(jQuery);

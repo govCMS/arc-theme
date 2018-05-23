@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+// --- ARC2018 styles -----------------------------
+
+// Variables
+@import 'arc/vars';
+// Mixins
+@import 'arc/mixins';
+// Global
+@import 'arc/global';
+
+// --- ARC2018 theme specific styles --------------
+
+// Main stylesheet
+@import 'site';
+
+// Fix legecy stylesheet
+@import 'arc/legacy';
