@@ -53,6 +53,7 @@
       width: 100%;
       height: auto;
       vertical-align: bottom;
+      border-radius: 5px;
     }
 
     li {
@@ -77,6 +78,11 @@
           font-size: 2rem;
           color: #fff;
         }
+      }
+
+      .field-name-field-read-more {
+        display: none;
+        visibility: hidden;
       }
     }
   }
