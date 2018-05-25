@@ -65,16 +65,18 @@
     }
 
     .node-slide {
-      .group-left {
-        float: left;
-        width: 620px;
-        height: 320px;
-      }
+      .node-title {
+        position: absolute;
+        top: 10%;
+        left: 30px;
+        width: auto;
+        padding: 15px;
+        background: transparent url("../img/bg-slideshow_caption.png") no-repeat;
 
-      .group-right {
-        float: right;
-        width: 300px;
-        padding-left: 0;
+        a {
+          font-size: 2rem;
+          color: #fff;
+        }
       }
     }
   }
@@ -82,22 +84,38 @@
   .rslides_tabs {
     margin: 0;
     padding: 0;
-    list-style-type: none;
-    list-style-image: none;
     position: absolute;
-    left: 15px;
-    top: 15px;
+    bottom: 10%;
+    text-align: left;
+    display: block;
+    z-index: 10;
+    left: 30px;
 
     li {
-      -moz-box-shadow: 0 0 3px #231f20;
-      -webkit-box-shadow: 0 0 3px #231f20;
-      box-shadow: 0 0 3px #231f20;
-      float: left;
-      margin-right: 3px;
-      padding: 3px 10px;
-      color: #231f20;
-      background-color: #fff;
-      background-color: rgba(255,255,255,0.5);
+      margin: 0 3px;
+      display: inline-block;
+      zoom: 1;
+
+      a {
+        background: #5E2D61;
+        color: #FFF;
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 3px 8px;
+        text-align: center;
+        font-size: 14px;
+        text-indent: 0;
+        text-decoration: none;
+        border-radius: 0;
+      }
+
+      &.rslides_here {
+        a {
+          background: #FCBF2D;
+          color: #5E2D61;
+        }
+      }
     }
   }
 }
