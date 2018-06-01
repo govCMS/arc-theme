@@ -43,6 +43,8 @@
 }
 
 #block-views-slideshow-block {
+  overflow: hidden;
+
   .block-title {
     display: none;
     visibility: hidden;
@@ -62,6 +64,7 @@
     }
 
     li {
+      display: none;
       position: relative;
       padding: 0;
       margin: 20px 0;
