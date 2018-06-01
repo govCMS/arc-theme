@@ -130,3 +130,57 @@
     }
   }
 }
+
+#region-content {
+  .ds-2col-stacked-fluid {
+    .group-left {
+      width: 30%;
+    }
+
+    .group-right {
+      width: 70%;
+
+      .field.field-name-body.field-type-text-with-summary.field-label-hidden {
+        width: 100%;
+        float: inherit;
+      }
+    }
+  }
+}
+
+#region-footer-copyright {
+  .block {
+    display: block;
+    width: 100%;
+
+    .block-inner {
+      text-align: right;
+    }
+  }
+
+  #block-block-16 {
+    width: 50%;
+    float: left;
+
+    .block-inner {
+      text-align: left;
+    }
+  }
+
+  #block-block-6 {
+    width: 50%;
+    float: right;
+
+    .connect_us {
+      float: right;
+    }
+  }
+
+  #block-block-11 {
+    clear: both;
+  }
+
+  .block-menu-footer-sub-menu ul.menu {
+    float: right;
+  }
+}
