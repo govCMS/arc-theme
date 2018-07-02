@@ -20,15 +20,6 @@
   <?php print $head; ?>
   <?php print $styles; ?>
   <?php print $scripts; ?>
-  <!--[if lt IE 9]>
-  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  <!--[if IE]>
-  <link rel="stylesheet" href="/profiles/agov/themes/arc/css/ie.css" type="text/css" media="screen"/>
-  <![endif]-->
-  <!--[if lte IE 8]>
-  <link type="text/css" rel="stylesheet" media="all" href="/profiles/agov/themes/arc/css/ie8-and-below.css"/>
-  <![endif]-->
   <!-- Special styles -->
   <link href="<?php print $path_to_arc; ?>/resources/css/scoped-twbs.min.css" rel="stylesheet">
   <link href="<?php print $path_to_arc; ?>/resources/css/wcag.css" rel="stylesheet">
