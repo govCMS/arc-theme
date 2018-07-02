@@ -6,12 +6,16 @@
  */
 
 /**
+ * Implements hook_preprocess_html().
+ */
+function arc2018_preprocess_html(&$variables) {
+  // Set common variables.
+  $variables['base_path'] = base_path();
+  $variables['path_to_arc'] = drupal_get_path('theme', 'arc2018');
+}
+
+/**
  * Implements hook_preprocess_region().
- * Override or insert variables into the region template.
- *
- * @param $variables
- *
- * @throws \Exception
  */
 function arc2018_preprocess_region(&$variables) {
   // Get theme settings.
