@@ -1,0 +1,28 @@
+#region-content {
+   .omega-grid.omega-12-twocol-3-9 {
+     .grid-9 {
+       width: 680px;
+     }
+   }
+
+  .ds-2col-stacked-fluid {
+    .group-left {
+      width: 30%;
+    }
+
+    .group-right {
+      width: 70%;
+
+      .field.field-name-body.field-type-text-with-summary.field-label-hidden {
+        width: 100%;
+        float: inherit;
+      }
+
+      .field-name-field-photo-credit {
+        clear: both;
+        padding: 1em 0;
+        border-top: 1px dashed #ccc;
+      }
+    }
+  }
+}

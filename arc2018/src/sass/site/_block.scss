@@ -1,0 +1,127 @@
+#block-govcms-text-resize-text-resize {
+  float: right;
+  margin: 0;
+  height: 27px;
+
+  ul.text-resize {
+    position: relative;
+    top: -27px;
+  }
+
+  li {
+    float: left;
+    list-style: none;
+    margin-right: 2px;
+    background-image: none;
+    padding: 0;
+    margin-left: 0;
+
+    a {
+      display: block;
+      width: 27px;
+      height: 0;
+      overflow: hidden;
+      padding-top: 27px;
+
+      &.font-small {
+        background: url("../img/icon-smaller.png") no-repeat center bottom;
+      }
+
+      &.font-large {
+        background: url("../img/icon-larger.png") no-repeat center bottom;
+      }
+    }
+  }
+}
+
+#block-views-slideshow-block {
+  overflow: hidden;
+
+  .block-title {
+    display: none;
+    visibility: hidden;
+  }
+
+  .rslides {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+
+    img {
+      width: 100%;
+      height: auto;
+      vertical-align: bottom;
+      border-radius: 5px;
+    }
+
+    li {
+      display: none;
+      position: relative;
+      padding: 0;
+      margin: 20px 0;
+      display: none;
+      width: 100%;
+      background: #D3D3D3 linear-gradient(200deg,#e2e2e2,#fff 60%);
+    }
+
+    .node-slide {
+      .node-title {
+        position: absolute;
+        top: 10%;
+        left: 30px;
+        width: auto;
+        padding: 15px;
+        background: transparent url("../img/bg-slideshow_caption.png") no-repeat;
+
+        a {
+          font-size: 2rem;
+          color: #fff;
+        }
+      }
+
+      .field-name-field-read-more {
+        display: none;
+        visibility: hidden;
+      }
+    }
+  }
+
+  .rslides_tabs {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 10%;
+    text-align: left;
+    display: block;
+    z-index: 10;
+    left: 30px;
+
+    li {
+      margin: 0 3px;
+      display: inline-block;
+      zoom: 1;
+
+      a {
+        background: #5E2D61;
+        color: #FFF;
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 3px 8px;
+        text-align: center;
+        font-size: 14px;
+        text-indent: 0;
+        text-decoration: none;
+        border-radius: 0;
+      }
+
+      &.rslides_here {
+        a {
+          background: #FCBF2D;
+          color: #5E2D61;
+        }
+      }
+    }
+  }
+}
