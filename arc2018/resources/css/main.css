@@ -1,0 +1,90 @@
+/* ==========================================================================
+   App specific styles custom styles
+   ========================================================================== */
+ .wcagAAA .breadcrumb a {
+    color: #0F4C80;
+}
+tbody > tr.anzsrcDivisionCode {
+    font-weight: bold;
+}
+
+#legend table {
+  width: 20em;
+  max-width: 20em;
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+#legend th {
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+
+table.era-theme tbody > tr > td[data-rating='5'] {
+    background-color: #31a354 !important;
+}
+table.era-theme tbody > tr > td[data-rating='4'] {
+    background-color: #74c476 !important;
+}
+table.era-theme tbody > tr > td[data-rating='3'] {
+    background-color: #c7e9c0 !important;
+}
+table.era-theme tbody > tr > td[data-rating='2'] {
+    background-color: #c6dbef !important;
+}
+table.era-theme tbody > tr > td[data-rating='1'] {
+    background-color: #6baed6 !important;
+}
+table.era-theme tbody > tr > td[data-rating='Not assessed'] {
+    background-color: #ffffff !important;
+    background-clip: padding-box;
+}
+table.era-theme tbody > tr > td[data-rating='Not rated'] {
+    background-color: #9e9ac8 !important;
+}
+
+th {
+    white-space: nowrap;
+}
+
+/* footnote support */
+article { counter-reset: footnotes; } /* This will initialize an automatic counter so you don't have to keep track of numbers will listing your citations. */
+
+a.footnote-ref {
+    counter-increment: footnotes; /* Increment the counter by 1 every time you use the footnote-label description. */
+    text-decoration: none; /* This and all other elements here are used to remove the default link style from footnotes. */
+    color: inherit;
+    cursor: default;
+    outline: none;
+}
+
+a.footnote-ref::after { /* ::after makes all formatting here appear after the link to a footnote. */
+    content: '[' counter(footnotes) ']'; /* Will make footnoes looke like [1],[2],[3] */
+    vertical-align: super; /* Puts [#] in superscript. */
+    font-size: 0.75em;
+    margin-left: 2px;
+    color: blue; /* Make sure formatting is back to normal link style. */
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a.footnote-ref:focus::after { /* Reset focus formatting to default. */
+    outline: thind dotted;
+    outline-offset: 2px;
+}
+
+/* print support */
+@media print {
+    td {
+        -webkit-print-color-adjust: exact; 
+        print-color-adjust: exact;
+        
+    }
+    table.era-theme td[data-rating]:after {
+        content: attr(data-rating);
+    }
+    a[href]:after {
+        content: "" !important;
+    }
+}
