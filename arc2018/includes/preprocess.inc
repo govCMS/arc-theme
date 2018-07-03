@@ -48,3 +48,18 @@ function arc2018_preprocess_node(&$variables) {
     }
   }
 }
+
+/**
+ * Implements hook_preprocess_search_api_page_result()
+ */
+function arc2018_preprocess_search_api_page_result(&$variables) {
+  $item = $variables['item'];
+
+  $info = [];
+  if (!empty($item->created)) {
+    $info['date'] = format_date($item->created, 'govcms_month_day_year');
+  }
+  // Provide separated and grouped meta information.
+  $variables['info_split'] = $info;
+  $variables['info'] = implode(' - ', $info);
+}
