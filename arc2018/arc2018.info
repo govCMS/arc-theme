@@ -52,6 +52,7 @@ zones[footer_copyright] = 'Footer Copyright'
 ;; Javascript.
 ;;;;;;;;;;;;;;;;;;;;;
 
+scripts[] = js/plugins.js
 scripts[] = js/responsiveslides.js
 scripts[] = js/arc2018.js
 

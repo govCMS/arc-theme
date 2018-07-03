@@ -16,6 +16,7 @@ const atImport = require('postcss-import');
 const autoprefixer = require('autoprefixer');
 const beeper = require('beeper');
 const compass = require('gulp-sass');
+const concat = require('gulp-concat');
 const cssNano = require('cssnano');
 const imagemin = require('gulp-imagemin');
 const modernizr = require('gulp-modernizr');
@@ -50,6 +51,15 @@ gulp.task('images', function() {
 
 // JS minify.
 gulp.task('scripts', function() {
+  gulp.src([
+      'node_modules/magnific-popup/dist/jquery.magnific-popup.js'
+    ]).pipe(plumber({
+      errorHandler: onError
+    }))
+    .pipe(uglify())
+    .pipe(concat('plugins.js'))
+    .pipe(gulp.dest('./js/'));
+
   return gulp.src('./src/js/*.js')
     .pipe(plumber({
       errorHandler: onError

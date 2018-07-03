@@ -30,3 +30,16 @@
     margin-left: 0;
   }
 }
+
+body.front {
+  #zone-content-bottom{
+    .view-whats-new {
+      .views-row {
+        .field-name-body.field-type-text-with-summary {
+          width: 100%;
+          float: none;
+        }
+      }
+    }
+  }
+}
