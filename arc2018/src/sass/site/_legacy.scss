@@ -1,3 +1,23 @@
+#region-content {
+  // Fix pager style.
+  ul {
+    &.pager {
+      li {
+        margin: 0 !important;
+
+        &.pager-ellipsis {
+          float: left;
+        }
+
+        &.pager-current {
+          margin: 0 5px 0 0 !important;
+          padding: 0 5px !important;
+        }
+      }
+    }
+  }
+}
+
 #region-sidebar {
   .block {
     h2 {
@@ -9,7 +29,7 @@
     h3 {
       margin: 0 !important;
       padding: 0 !important;
-      
+
       a {
         font-size: 15px !important;
       }
@@ -33,8 +53,8 @@
     }
   }
 }
-// ERA feeds block.
 
+// ERA feeds block.
 .block-views-era-feed-block {
   .item-list {
     ul {
