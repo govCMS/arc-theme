@@ -1,13 +1,69 @@
 #region-sidebar {
+  .block {
+    h2 {
+      a {
+        color: $link-color-default !important;
+      }
+    }
+
+    h3 {
+      margin: 0 !important;
+      padding: 0 !important;
+      
+      a {
+        font-size: 15px !important;
+      }
+    }
+
+    .content {
+      padding: 8px 10px !important;
+    }
+  }
   // Fix padding issue.
   .block-menu-block {
     .content {
-      padding: 10px 15px !important;
+      padding: 8px 10px !important;
 
       ul {
         li {
           padding-bottom: 5px !important;
           background: url("../img/bg-list_content.png") 0 6px no-repeat !important;
+        }
+      }
+    }
+  }
+}
+// ERA feeds block.
+
+.block-views-era-feed-block {
+  .item-list {
+    ul {
+      li {
+        margin: 0 0 1em 0 !important;
+        padding: 0 !important;
+        background: none !important;
+
+        .node-teaser {
+          h2 {
+            padding: 0 !important;
+
+            a {
+              color: $link-color-default !important;
+            }
+          }
+
+          h3 {
+            margin: 0 !important;
+            padding: 0 !important;
+
+            a {
+              font-size: 15px !important;
+            }
+          }
+
+          .content {
+            padding: 0 !important;
+          }
         }
       }
     }
