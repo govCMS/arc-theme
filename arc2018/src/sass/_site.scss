@@ -1,9 +1,14 @@
+// Common features.
+@import 'site/feature';
+// Logo.
 @import 'site/logo';
-
+// Profile.
 @import 'site/profile';
-
+// Blocks.
 @import 'site/block';
-
+// Content region.
 @import 'site/content';
-
+// Site footer.
 @import 'site/footer';
+// Fix legecy stylesheet.
+@import 'site/legacy';

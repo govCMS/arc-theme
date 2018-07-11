@@ -1,0 +1,15 @@
+#region-sidebar {
+  // Fix padding issue.
+  .block-menu-block {
+    .content {
+      padding: 10px 15px !important;
+
+      ul {
+        li {
+          padding-bottom: 5px !important;
+          background: url("../img/bg-list_content.png") 0 6px no-repeat !important;
+        }
+      }
+    }
+  }
+}
