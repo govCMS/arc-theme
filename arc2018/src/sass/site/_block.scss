@@ -59,7 +59,7 @@
       display: none;
       position: relative;
       padding: 0;
-      margin: 20px 0;
+      margin: 25px 0;
       display: none;
       width: 100%;
       background: #D3D3D3 linear-gradient(200deg,#e2e2e2,#fff 60%);
@@ -71,6 +71,7 @@
         top: 10%;
         left: 30px;
         width: auto;
+        max-width: 420px;
         padding: 15px;
         background: transparent url("../img/bg-slideshow_caption.png") no-repeat;
 

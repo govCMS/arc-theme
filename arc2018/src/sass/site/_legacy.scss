@@ -1,3 +1,7 @@
+#region-header-search form input.form-submit {
+  float: right;
+}
+
 #region-content {
   // Fix pager style.
   ul {
@@ -15,6 +19,7 @@
         }
       }
     }
+
     &.toc-filter-links {
       margin: 0 !important;
 
@@ -60,7 +65,6 @@
     }
   }
 }
-
 // ERA feeds block.
 .block-views-era-feed-block {
   .item-list {
