@@ -1,0 +1,15 @@
+#logo {
+  width: 266px;
+
+  img {
+    height: 59px;
+  }
+}
+
+@media (max-width: 480px) {
+  #zone-header-wrapper {
+    #logo {
+      float: right;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+#block-govcms-text-resize-text-resize {
+  position: relative;
+  top: -27px;
+  float: right;
+  margin: 0;
+  height: 27px;
+
+  li {
+    float: left;
+    list-style: none;
+    margin-right: 2px;
+    background-image: none;
+    padding: 0;
+    margin-left: 0;
+
+    a {
+      display: block;
+      width: 27px;
+      height: 0;
+      overflow: hidden;
+      padding-top: 27px;
+
+      &.font-small {
+        background: url("../img/icon-smaller.png") no-repeat center bottom;
+      }
+
+      &.font-large {
+        background: url("../img/icon-larger.png") no-repeat center bottom;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  #zone-header-wrapper {
+    #block-govcms-text-resize-text-resize {
+      display: none;
+      visibility: hidden;
+    }
+  }
+}

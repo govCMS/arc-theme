@@ -1,51 +1,5 @@
-@media (max-width: 480px) {
+@media (max-width: 479px) {
   #zone-header-wrapper {
     height: 120px !important;
-
-    #logo {
-      float: right;
-    }
-
-    #block-govcms-text-resize-text-resize {
-      display: none;
-      visibility: hidden;
-    }
-  }
-
-  #block-views-slideshow-block {
-    .rslides {
-      .node-slide {
-        .node-title {
-          left: 0 !important;
-          font-size: 16px !important;
-          line-height: 18px !important;
-          bottom: 0 !important;
-          height: auto !important;
-          padding: 10px !important;
-          text-align: center !important;
-          top: auto !important;
-
-          a {
-            font-size: 1.2rem;
-          }
-        }
-      }
-    }
-    // Slides tabs.
-    .rslides_tabs {
-      position: relative;
-      bottom: -5%;
-      left: -3px;
-    }
-  }
-}
-
-.visible-xs-block {
-  display: none;
-}
-
-@media (max-width: 767px) {
-  .visible-xs-block {
-    display: block !important;
   }
 }

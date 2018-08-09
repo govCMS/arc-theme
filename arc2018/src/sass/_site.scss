@@ -1,18 +1,6 @@
-// Common features.
-@import 'site/feature';
-// Logo.
-@import 'site/logo';
-// Navigation.
-@import 'site/navigation';
-// Profile.
-@import 'site/profile';
-// Blocks.
-@import 'site/block';
-// Content region.
-@import 'site/content';
-// Site footer.
-@import 'site/footer';
-// Fix legecy stylesheet.
-@import 'site/legacy';
+// Components.
+@import 'site/components';
+// Fixes.
+@import 'site/fixes';
 // Responsive style.
 @import 'site/responsive';
