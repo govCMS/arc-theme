@@ -39,3 +39,13 @@
     }
   }
 }
+
+.visible-xs-block {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .visible-xs-block {
+    display: block !important;
+  }
+}
